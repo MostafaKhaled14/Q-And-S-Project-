@@ -30,7 +30,6 @@ body{
     top: 60px;
     right: 5%;
     border-radius: 5px;
-    border: 2px solid #B0E0E6;
     transition:0.4s;
     box-shadow: 0 0 10px 2px #B0E0E6;
 }
@@ -46,7 +45,7 @@ body{
     border-width: 24px;
     border-style: solid;
     border-color:#B0E0E6 transparent transparent transparent;
-    top: 60px;
+    top: 65px;
     left: 23px;
     transform: translate(-50% , -50%);
 }
@@ -392,8 +391,9 @@ body{
     width: 100%;
     height: 100vh;
     background-image:url(../img/home2.jpg);
-    background-size: contain;
     background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .home .container {
@@ -421,17 +421,17 @@ body{
 }
 
 .home .brand.img1{
-    background-image: url(../img/furniture1.jpg);
+    background-image: url(../img/Furniture1.jpg);
     background-size: cover;
 }
 
 .home .brand.img2{
-    background-image: url(../img/clothes3.jpg);
+    background-image: url(../img/Clothes3.jpg);
     background-size: cover;
 }
 
 .home .brand.img3{
-    background-image: url(../img/accessories1.jpg);
+    background-image: url(../img/Accessories1.jpg);
     background-size: cover;
 }
 
@@ -465,7 +465,7 @@ body{
 }
 
 .home .brand p{
-    padding: 3px 2px;
+    padding: 3px 8px;
     transition: 0.4s;
 }
 
@@ -713,21 +713,21 @@ body{
 }
 
 .container .card.s1.img1{
-    background-image: url(../img/popular1.jpg);
+    background-image: url(../img/Popular1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
 .container .card.s1.img2{
-    background-image: url(../img/popular2.jpg);
+    background-image: url(../img/Popular2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
 .container .card.s1.img3{
-    background-image: url(../img/popular3.jpg);
+    background-image: url(../img/Popular3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -1040,7 +1040,7 @@ body{
     background-size: contain;
 }
 .container .card.s2.img2{
-    background-image: url(../img/lightDesk1.jpg);
+    background-image: url(../img/LightDesk1.jpg);
     background-size: contain;
 }
 .container .card.s2.img3{
@@ -1606,7 +1606,7 @@ body{
     top: 100px;
     left: 100px;
     transition: 0.3s;
-    background-image: url(../img/treadmill1.jpg);
+    background-image: url(../img/Treadmill1.jpg);
     background-size: contain;
 }
 
